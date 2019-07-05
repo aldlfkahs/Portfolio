@@ -1,0 +1,64 @@
+/*@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean');*/
+body{
+    margin:0 auto; padding-left:20px;
+    width:800px;
+}
+
+:lang(en){
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:lang(ko){
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.lang{
+    font-size: 15px;
+    text-align: center;
+    margin-right: 0px; margin-top: 0px;
+    padding-left: 500px;
+}
+.lang #select a{
+    color: gray;
+}
+#name{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.detail p{
+    border-bottom: 1px gray solid;
+    width:270px;
+    
+}
+.detail #email p{
+    border-bottom: 1px gray solid;
+    padding-top: 50px;
+}
+.detail #github p{
+    border-bottom: 0;
+}
+
+.intro{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+}
+
+h2{
+    margin-top:50px; margin-bottom: 5px;
+    padding-top:15px;
+    width:600px;
+    border-top: 1px solid gray;
+}
+h4{
+    margin-top:15px; margin-left:20px; margin-bottom: 5px;
+}
+ul{
+    margin:5px;
+}
