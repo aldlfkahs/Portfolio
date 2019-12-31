@@ -37,11 +37,19 @@ a{
     width:270px;
     
 }
-.detail #email p{
-    border-bottom: 1px gray solid;
+.detail #birth p{
     padding-top: 50px;
+    margin-bottom: 0;
+    border-bottom: 1;
+}
+.detail #email p{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px gray solid;
+    border-bottom: 1;
 }
 .detail #github p{
+    margin-top: 0;
     border-bottom: 0;
 }
 
