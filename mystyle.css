@@ -18,6 +18,10 @@ a{
     color: dodgerblue;
 }
 
+a:hover{
+    color: darkorange;
+}
+
 .lang{
     font-size: 15px;
     text-align: center;
