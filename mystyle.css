@@ -60,6 +60,12 @@ a:hover{
 }
 .detail #github p{
     margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px gray solid;
+    border-bottom: 1;
+}
+.detail #blog p{
+    margin-top: 0;
     border-bottom: 0;
 }
 
